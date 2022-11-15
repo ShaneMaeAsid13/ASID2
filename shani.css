@@ -1,0 +1,148 @@
+*{
+	margin:0 ;
+	padding:0 ;
+	font-family:times new york ;
+}
+body{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://www.teahub.io/photos/full/59-596724_1920x1080-beach-sunset-wallpaper-widescreen-sunset-wallpaper-beach.jpg);
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+header{
+	/*background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://www.teahub.io/photos/full/59-596724_1920x1080-beach-sunset-wallpaper-widescreen-sunset-wallpaper-beach.jpg);*/
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-bottom: auto;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: blanchedalmond;
+	padding: 5px 20px;
+	border: 2px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color:salmon;
+	color: #000;
+}
+ul li.active a{
+	background-color:snow ;
+	color: #000;  
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+
+}
+.logo img:hover{
+	background-color:lightcoral;
+	transition: 0.7s ease;
+	
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #FF5733 ;
+	font-size: 100px;
+	font-family: times new york	;
+}
+.title:hover{
+	background-color:whitesmoke;
+	color: #000;
+
+
+}
+.button{
+	position: absolute;
+	top: 70%;
+	left: 45%;
+	transform: translate(-50%,-50%);
+
+
+}
+.btn{
+	border: 1px solid saddlebrown;
+	padding: 10px 30px;
+	color: saddlebrown;
+	text-decoration: none;
+	transition: 0.6s ease;
+
+}
+.btn:hover{
+	background-color:salmon;
+	color: #000;
+}
+h2{
+	color:tan ;
+	font-size:50px;
+	font-family:times new york;
+	text-align: center;
+	border: 15px groove;
+	width: 40%;
+	padding: 10px;
+	background: courier new;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3{
+	color:saddlebrown ;
+	font-size:12px;
+	font-family:times new york;
+	border: 15px ;
+	width: 10%;
+	padding: 10px;
+	background: url(https://wallpaperaccess.com/full/2727138.png);
+	margin-right: auto;
+	
+}
+#pag1 {
+	font-size:15spx;
+	font-family: unset;
+	background:tan ;
+	padding: 5px;
+	margin: 5px;
+	border-radius:30px;
+	border: 5px outset;
+}
+
+.image{
+	text-align: center;
+	margin: 200px;
+	border: 30px outset;
+	width:500px;
+	border-radius:10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#adress{
+	background-color: salmon;
+}
+
